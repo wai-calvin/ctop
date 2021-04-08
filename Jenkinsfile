@@ -5,6 +5,10 @@ pipeline {
       go 'go1.16.3'
   }
 
+  evironment {
+    path = '/usr/local/go/bin'
+  }
+
   stages {
     stage('Compile') {
       steps {

@@ -3,7 +3,6 @@ pipeline {
   
   environment {
     PATH = '/working_dir/go/bin:$PATH'
-    GITHUB_TOKEN = credentials('github-token')
   }
 
   stages {

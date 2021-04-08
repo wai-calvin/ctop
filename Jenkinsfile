@@ -6,7 +6,7 @@ pipeline {
   }
 
   environment {
-    path = '/usr/local/go/bin'
+    path = '/working_dir/go/bin:$PATH'
   }
 
   stages {

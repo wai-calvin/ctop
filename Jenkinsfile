@@ -1,10 +1,6 @@
 pipeline {
   agent any
   
-  tools {
-      go 'go1.16.3'
-  }
-
   environment {
     path = '/working_dir/go/bin:$PATH'
   }

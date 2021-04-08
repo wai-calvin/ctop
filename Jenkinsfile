@@ -5,7 +5,7 @@ pipeline {
       go 'go1.16.3'
   }
 
-  evironment {
+  environment {
     path = '/usr/local/go/bin'
   }
 
